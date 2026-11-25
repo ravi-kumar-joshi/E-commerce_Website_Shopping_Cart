@@ -95,7 +95,7 @@ const updateTotalPrice = () => {
 
     total += price * quantity;
   });
-  totalPriceElement.textContent = `$${total}`;
+  totalPriceElement.textContent = `₹${total}`;
 };
 
 let cartItemCount = 0;
